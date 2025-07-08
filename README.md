@@ -13,7 +13,7 @@ However, it's not just a case of "total theft". The program itself has been bare
 
 ### Does this have bugs?
 
-This is the truly unmodified version (tarred and untarred) eSign+. This doesn't include the possible bugs of eSign++ or any modified eSign+ version. The bugs are:
+This is the truly unmodified version (tarred and untarred) eSign+. This doesn't include the possible bugs of eSign++ or any modified eSign+ (which in turn isn't eSign+) version. The bugs are:
 
 1. Helper Application Bug (Tested): The original helper app works as expected when setting it up however when making a new helper app (particularly after removing the helper app) with any system binary/app. The new helper binary/app **doesn't work** and upon opening, it automatically closes. It may happen or may not happen for you.
 2. Small TrollBug (lolololol): This is a small bug. Firstly, the application will not show up in TrollStore which makes uninstallation slightly harder. When uninstalling the app, you need to go to eSign+, Settings and click the red Uninstall button and choose the best option for your needs. After that, refresh the icon cache on TrollStore, **not your jailbreak**. If the app doesn't go away after that, refer to the "**How to Uninstall eSign+?**" section.
