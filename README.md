@@ -3,6 +3,7 @@
 eSign+ (or eSignPlus) is a modified version of eSign that allows and supports the installation of IPA files on TrollStore instead of using certificates. This is an TrollApps alternative for users which prefer the eSign interface more or want to switch for any particular reason. This is not an official or approved app store of TrollStore (opa334 has disapproved of official app stores for TrollStore due to piracy concerns). 
 
 Before starting the entirety of this block of text, keep in mind that the eSign+ persistence app can be called the eSign+ helper app. These are not exact since these have slightly different purposes but the outcome is the same, really.
+
 ## Everything about eSign+
 
 ### Is this your work?
@@ -30,7 +31,8 @@ Those are all the currently found bugs. For unfound/new bugs, please report it a
 4. (Optional but recommended) Perform system cleaning in iClean (or iClean Pro) to clean off the app 
 5. Go to the Files app (or Filza), find the eSign+ folder/ZIP and uninstall it. This ensures that the pre-install traces of the app get removed.
 6. Refresh the TrollStore icon cache
-7. If this issue still isn't fixed, do all the optional steps if undone. Lastly, refresh your jailbreak's icon cache. If the app is still there, restart your phone.
+7. (Optional but recommended) Remove all the .plist files and traces of the eSign+ app 
+8. If this issue still isn't fixed, do all the optional steps if undone. Lastly, refresh your jailbreak's icon cache. If the app is still there, restart your phone.
 
 ### Does this tool require jailbreak?
 
@@ -44,4 +46,26 @@ It's the eSign 5.0.0 version under the hood. That's not the newest version but i
 
 ### Can this tool do regular signing?
 
-The main purpose of eSign+ is to provide an app store for TrollStore that's really eSign! It can do regular signing with certificates. If you're exclusively using eSign+ for certificate signing, kindly uninstall it since that doesn't fit with the purpose or setup methods of this tool and install eSign's latest version or start using the "Troll Install". **eSign+ can do anything eSign can, however it includes TrollStore support too! It's *not* a totally different app!** Talking about regular signing, you can install eSign+ for the sole purpose of non-TrollStore signing with it's IPA. Another reason to not use eSign+ for signing only is the fact that it's not the latest version of eSign (eSign will have a mildly different experience).
+This tool can perform regular signing however it's main purposes is "Troll Install" (installing via TrollStore). If you want to exclusively use eSign+ or further projects of eSign+ for signing with certificates, please use eSign since as of today, it's a better maintained and updated project and it's planned that eSign+'s other projects will totally remove such signing functionality.
+
+### Setting up eSign+
+
+The helper app means the app which installs and manages the other app (eSign+ in this case) which makes it easy to manage and install the other app (eSign+). It is a very different app compared to any system app or anything else.
+A system app is an app provided by iOS by default. Apps can also be called binaries. These apps are lightweight and include Books, Notes, Calculator, Camera, Photos etc. These apps are built into the system by default.
+An useless system app is an app which you don't use or care about at all in iOS. This app will be replaced with the helper app when following the traditional method.
+
+This includes the entire tutorial from start-to-finish on how to install and set up eSign+. It has several methods of doing so, it's sorted from the oldest to newest. **This list is not sorted through reliability metrics, it's sorted through oldest to newest. Changes to this sorting may happen if such methods don't work at all.**
+
+None of these ways require any external device such as a computer or any SSH session unless in cases where you cannot install the files into your iOS device! You should follow all steps into your iOS device. Keep in mind that all of these ways are constantly getting monitored and updated for bug fixes and simpler setup. **These tutorials don't assume any prior experience, explain steps well and call directories "folders"**.
+
+1. Traditional Method
+
+This method is known as the "traditional" method because for a long time, it has been the only way to set eSign+ up. This way is reliable however it's only drawback is the fact that it requires a rootful jailbreak and Filza (for setting up eSign+ helper app into a system binary to install eSign+). If you don't meet such requirements, skip over this method and move on to the next ones. This way doesn't need the installation of an IPA as the helper app sets eSign+ up! 
+
+1. Go to [https://github.com/eSignPlus/eSignPlus](eSignPlus's GitHub repository), click the **Code** button and lastly, click the **Download ZIP** button. This downloads the entire repository as an compressed ZIP file.
+2. When downloaded, open **Files** and navigate to the file (if not already there). Once you see the file, **click** the ZIP file (or hold it and select **Uncompress** from the file's menu). This will make a folder of eSign+'s helper app which is essential.
+3. Once the folder is created, **open it and share the eSignPlus folder (which is inside the folder you opened) to Filza**.
+4. In Filza, you will see a folder named **eSignPlus** or **eSignPlus (1)** (with the number being the amount of duplicate times the folder was created). **Open the folder** and open the folder inside of it named **eSignPlusSetup5.0.0** (5.0.0 is the name of the eSign version being used, not the eSign+ version). You will see two files: **esignhelper** and **App**.
+5. The **App** file represents the name of the system app which you are willing to replace with the helper app. Rename the **App** file to the system app you will replace it with. This system app should be one you don't use (that's useless for you) since it will be permamently replaced with the helper app unless you reinstall the system app which will remove the helper app. You can find a [https://en.wikipedia.org/wiki/List_of_built-in_iOS_apps#Applications](**list of built-in system apps**). A good name to give it is **Books** since the **Books** app is useless for most people. In other words: rename the **App** file to the name of a useless built-in iOS app like Books.
+6. After doing that, **hold** the file and select **Copy** from the file's menu. This should temporarily appear in a blue box: "1 item(s) in Pasteboard. Tap here to Paste"
+Text-only Tutorial
