@@ -1,0 +1,9 @@
+"PROLOGUE" = "<p>Drag &amp; drop files on this window or use the \"Upload Files&hellip;\" button to upload new files.</p>";
+"EPILOGUE" = "";
+"FOOTER_FORMAT" = "%@ %@";
+"File" = "File";
+"Download" = "Download";
+"Cancel" = "Cancel";
+"Upload Files" = "Upload Files";
+"Refresh" = "Refresh";
+"Install" = "Install";
