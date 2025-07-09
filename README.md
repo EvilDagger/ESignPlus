@@ -14,12 +14,15 @@ However, it's not just a case of "total theft". The program itself has been bare
 
 ### Does this have bugs?
 
+You need to keep in mind that eSign+ is in it's pre-alpha phase, meaning that it's not even in it's beginner phase yet! In other words, bugs are more common.
+
 This is the truly unmodified version (tarred and untarred) eSign+. This doesn't include the possible bugs of eSign++ or any modified eSign+ (which in turn isn't eSign+) version. The bugs are:
 
 1. Helper Application Bug (Tested): The original helper app works as expected when setting it up however when making a new helper app (particularly after removing the helper app) with any system binary/app. The new helper binary/app **doesn't work** and upon opening, it automatically closes. It may happen or may not happen for you.
 2. Small TrollBug (lolololol): This is a small bug. Firstly, the application will not show up in TrollStore which makes uninstallation slightly harder. When uninstalling the app, you need to go to eSign+, Settings and click the red Uninstall button and choose the best option for your needs. After that, refresh the icon cache on TrollStore, **not your jailbreak**. If the app doesn't go away after that, refer to the "**How to Uninstall eSign+?**" section.
+3. Source Problem (Confirmed): The eSign source cannot be uninstalled due to eSign leftovers being into eSign+. This source cannot be uninstalled and it returns an zip error when attempting installation.
 
-Those are all the currently found bugs. For unfound/new bugs, please report it as a GitHub issue (keep in mind: I'm not a expert on iOS coding, somebody either needs to pull request or this bug needs to be very well documented: possibly going down deep to the precise file causing the issue). If your issue was reported but hasn't got fixed, if it's a big issue, bump it (respond to it with not "bump" but a simple message about it to bring it on top of the issues) or if it's a small issue, wait for it to eventually get attention.
+Those are all the currently found bugs. For unfound/new bugs, please report it as a GitHub issue (keep in mind: I'm not a expert on iOS coding, somebody either needs to pull request or this bug needs to be very well documented: possibly going down deep to the precise file causing the issue). If your issue was reported but hasn't got fixed, if it's a big issue, bump it (respond to it with not "bump" but a simple message about it to bring it on top of the issues) or if it's a small issue, wait for it to eventually get attention. This doesn't include any grammatic (eSign++ will fix those some day...) or presentation as in CSS bugs!
 
 ### How to Uninstall eSign+?
 
@@ -93,8 +96,19 @@ This method is known as the "traditional" method because for a long time, it has
 19. You are done! Open the system app which you have modified to be as the helper app which is **Books** in this tutorial. For it's first launch especially if it was installed or reinstalled, it may appear and seem like the ordinary Books app. If this happens, simply close and open (relaunch) the app again. You will see the **Books** app suddenly become **eSign+ Persistence Helper**!
 20. Simply press on "Install URL". As of today (this is a TODO and MUSTFIX), this app uses the broken URL to install eSign+ by default. If you click on **Install eSign+** two times, it will not work due to an issue with the "official" URL. You will do a little bit of overriding, you can do this in two ways and one is recommended:
 
-20.1. (**Unrecommended**, **Most Reliable**) Select the Chinese button instead, this will prompt you to choose your own eSign+. You need to choose the tarred file and not the folder since the chooser only accepts TAR files. This will reliably and automatically maRe the installation complete.
+20.1. (**Unrecommended**, **Most Reliable**) Select the Chinese button instead, this will prompt you to choose your own eSign+. You need to choose the tarred file and not the folder since the chooser only accepts TAR files. This will reliably and automatically make the installation complete.
 
-20.2. (**Recommended**, **Reliable**) For updates and more support, use the GitHub URL. It's not the most reliable option since any changes may require manual intervention however apart from the updates, easy-to-fix changes and rigorous checking before commits, this option will still be very reliable and provide you with more benefits.
+20.2. (**Recommended**, **Reliable**) For updates and more support, use the GitHub URL. It's not the most reliable option since any changes may require manual intervention however apart from the updates, easy-to-fix changes and rigorous checking before commits, this option will still be very reliable and provide yYou with more benefits.
 
 After it's eventual installation, it now works! Congratulations for setting the program up, follow the **Post Install** section for all the best things to better your eSign+ installation for every installation method!
+
+##### Post Install
+
+Congratulations for installing eSign+!
+
+Here are all the things you **need** to do for an optimal user experience after you open eSign+:
+
+1. Go to **Download**, click the **...** (three dots), click **Setting** and toggle **Auto import** and **Auto delete** on to ensure all apps get imported and their useless IPA gets removed. Apart from saving storage and making eSign+ more convenient, this is standard practice for eSign.
+2. You need to add some sources. The **CyPwn TrollStore** repository is a good start! You can view more details in **REPOS.md**.
+
+That's it! 
